@@ -1,0 +1,48 @@
+public class GenerateInfoFiles {
+
+public static void main(String[] args) {
+	String TipoDocumentoVendedor = "Cedula";
+	long NumeroDocumentoVendedor = 201048409;
+	int IDProducto1 = 10230;
+	int IDProducto2 = 20310;
+	int IDProducto3 = 35;
+	String NombreProducto1 = "Jamon";
+	String NombreProducto2 = "Queso";
+	String NombreProducto3 = "Pan";
+	int PrecioPorUnidadProducto1 = 17500;
+	int PrecioPorUnidadProducto2 = 11890;
+	int PrecioPorUnidadProducto3 = 6800;
+	int CantidadProducto1 = 100000;
+	int CantidadProducto2 = 5000;
+	int CantidadProducto3 = 200;
+	int Vendido1 = 500;
+	int Vendido2 = 2000;
+	int Vendido3 = 50;
+	String TipoDocumento1 = "Cedula";
+	String TipoDocumento2 = "Cedula";
+	String TipoDocumento3 = "Cedula";
+	long NumeroDocumento1 = 201048409;
+	long NumeroDocumento2 = 200143909;
+	long NumeroDocumento3 = 210198988;
+	String NombresVendedor1 = "Juanito";
+	String NombresVendedor2 = "Robertico";
+	String NombresVendedor3 = "Jorgito";
+	String ApellidosVendedor1 = "Guzman";
+	String ApellidosVendedor2 = "Mendoza";
+	String ApellidosVendedor3 = "Mesa";
+	System.out.println(TipoDocumentoVendedor+";"+NumeroDocumentoVendedor+";");
+	System.out.println(IDProducto1+";"+CantidadProducto1+";"+Vendido1);
+	System.out.println(IDProducto2+";"+CantidadProducto2+";"+Vendido2);
+	System.out.println(IDProducto3+";"+CantidadProducto3+";"+Vendido3);
+	System.out.println(TipoDocumento1+";"+NumeroDocumento1+";"+NombresVendedor1+";"+ApellidosVendedor1);	System.out.println(TipoDocumento2+";"+NumeroDocumento2+";"+NombresVendedor2+";"+ApellidosVendedor2);
+	System.out.println(TipoDocumento3+";"+NumeroDocumento3+";"+NombresVendedor3+";"+ApellidosVendedor3);
+	System.out.println(IDProducto1+";"+NombreProducto1+";"+PrecioPorUnidadProducto1);
+	System.out.println(IDProducto2+";"+NombreProducto2+";"+PrecioPorUnidadProducto2);
+	System.out.println(IDProducto3+";"+NombreProducto3+";"+PrecioPorUnidadProducto3);
+	
+	
+	
+	
+	}
+	
+ }
